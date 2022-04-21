@@ -1,0 +1,123 @@
+body {
+    margin: 50px;
+    background-image: url(https://i.pinimg.com/originals/94/e8/79/94e879e29bc452c59091214e8900a507.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.div1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button {
+    background-color: rgb(255, 123, 0); 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: black;
+    cursor: pointer;
+    margin: 2px;
+    padding: 12px 62px;
+}
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.hero {
+    height: 400px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url("./assets/imagen principal.webp");
+    background-size: contain;
+}
+h1 {
+    background-color: rgb(255, 123, 0);
+    padding: 10px;
+    margin: 20px;
+}
+p1 {
+    background-color: rgb(255, 123, 0);
+    padding: 10px;
+    margin: 20px;
+}
+.card {
+    background-color: rgb(255, 123, 0);
+    height: 180px; 
+    width: 350px;
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+.price {
+    font-size: 32px;
+}
+.card1  {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicios {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Marco {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    padding: 10px;
+    margin: 10px;
+} 
+.anuncio {
+    background-color: aliceblue;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+H5 {
+    font-size: 30PX;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+h6 {
+    background-color: aliceblue;
+    height: 200px;
+    width: 200px;
+}
