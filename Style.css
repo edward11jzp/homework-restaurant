@@ -18,8 +18,11 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: black;
     cursor: pointer;
-    margin: 2px;
     padding: 12px 62px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 .top {
     display: flex;
@@ -35,26 +38,32 @@ button {
     align-items: flex-start;
     justify-content: center;
     background-image: url("./assets/imagen principal.webp");
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 h1 {
     background-color: rgb(255, 123, 0);
-    padding: 10px;
-    margin: 20px;
+    padding: 5px;
+    margin-left: 10%;
 }
 p1 {
     background-color: rgb(255, 123, 0);
-    padding: 10px;
-    margin: 20px;
+    padding: 5px;
+    margin-left: 10%;
 }
 .card {
     background-color: rgb(255, 123, 0);
     height: 180px; 
-    width: 350px;
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .column {
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -62,46 +71,66 @@ p1 {
     justify-content: space-between;
 }
 .price {
-    font-size: 32px;
+    font-size: 48px;
 }
-.card1  {
-    display: flex;
-    flex-direction: column;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.card2 {
-    display: flex;
-    flex-direction: column;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .servicios {
+    width: 100%;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+.icon {
+    font-size: 60px;
+}
 .Marco {
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items:center;
-    padding: 10px;
-    margin: 10px;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
 } 
+h3 {
+    margin: 0;
+    font-size: 16px;
+}
+p {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
 .anuncio {
     background-color: aliceblue;
     height: 300px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-items: flex-start;
     margin-top: 30px;
+    padding: 50px;
+}
+p4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.oferta {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.learn {
+    margin-right: 69%;
+    background-color: rgb(255, 123, 0);
+}
+img {
+    max-width: 40%;
+    min-width: 30%;
+    display: flex;
+    align-items: flex-start;
+}
+.learn {
+    padding: 10px 20px ;
 }
 H5 {
     font-size: 30PX;
@@ -113,11 +142,12 @@ H5 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-
 }
-h6 {
-    background-color: aliceblue;
-    height: 200px;
-    width: 200px;
+.imagen {
+    max-width: 200px;
+    max-Height: 200px;
+    min-height: 200px;
+    min-width: 200px;
+    background-size: contain;
+    margin: 0.5%;
 }
